@@ -1,0 +1,26 @@
+### Hi there 👋
+
+<!--
+**Ayyagaru/Ayyagaru** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+num1 = int(input("Enter first number: "))      
+ num2 = int(input("Enter second number: ")) 
+ #Compare both the number 
+ if num1 >= num2:   
+     if num1 == num2:    
+         print("Both numbers are equal.")       
+     else:  
+         print("Fisrt number is greater than the second number.")
+ else:   
+     print("Second number is greater than the First number.")
