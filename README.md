@@ -14,17 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Sno=int (input('Enter student no :'))
- Sname=input('Enter student name :'))
- Sgroup=input('Enter student group :'))
- S1=int (input ('maths marks'))
- S2=int (input ('physics marks'))
- S3=int (input ('computer marks'))
- S4=int (input ('Telugu marks'))
- S5=int (input ('English marks'))
- S6=int (input ('Online Business marks'))
-If 
-    S1>35 and S2>35 and S3>35 and S4>35         and S5>35 and S6>35
-     Print ('pass') 
-Else
-     Print ('fail') 
+no=int(input('enter a number:no=/0') 
+ If no>0
+ Print ('no is positive')
+ Else
+ Print ('no is negative')
