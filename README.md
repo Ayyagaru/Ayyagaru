@@ -14,8 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-num = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
-else:
-   print("{0} is Odd".format(num))
+a=-1
+
+b=1
+n=int(input("enter a value: "))
+for i in range(1,n+1):
+    c=a+b
+    print(c)
+    a=b
+    b=c
