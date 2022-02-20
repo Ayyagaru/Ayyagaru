@@ -14,8 +14,16 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-num = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
-else:
-   print("{0} is Odd".format(num))
+def isprime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+    
+a=int(input(".     ")) 
+n=int(input(".      "))
+c=0
+for i in range(2,n+1):
+    if isprime(i):
+        c=c+1
+print("       " ,c)
