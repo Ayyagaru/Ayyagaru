@@ -20,10 +20,10 @@ def isprime(n):
             return False
     return True
     
-a=int(input(".     ")) 
-n=int(input(".      "))
-c=0
-for i in range(2,n+1):
-    if isprime(i):
-        c=c+1
-print("       " ,c)
+n=int(input('enter a number'))
+k=97
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        print(chr(k),end=' ')
+        k+=1
+    print('\n')
