@@ -14,8 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-num = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
-else:
-   print("{0} is Odd".format(num))
+n=int(input('enter a number'))
+k=97
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        print(chr(k),end=' ')
+        k+=1
+    print('\n')
